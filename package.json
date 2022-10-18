@@ -1,0 +1,80 @@
+{
+  "name": "Fronted-DBAnime-React",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "18.11.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "latest",
+    "@fortawesome/free-brands-svg-icons": "latest",
+    "@fortawesome/free-solid-svg-icons": "latest",
+    "@fortawesome/react-fontawesome": "latest",
+    "@reduxjs/toolkit": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "autoprefixer": "latest",
+    "axios": "latest",
+    "babel": "latest",
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-env": "latest",
+    "babel-preset-react": "latest",
+    "html-webpack-plugin": "latest",
+    "lodash": "latest",
+    "moment": "latest",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-dotenv": "latest",
+    "react-redux": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "redux": "latest",
+    "redux-persist": "latest",
+    "tailwindcss": "latest",
+    "web-vitals": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy":"react-scripts build && touch build/.nojekyll"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "REACT_APP_API_HOME",
+      "REACT_APP_API_MOVIE",
+      "REACT_APP_API_SCHEDULE",
+      "REACT_APP_API_HOME",
+      "REACT_APP_API_SEARCH",
+      "REACT_APP_API_HOME_ECCHI",
+      "REACT_APP_API_MOVIE_ECCHI",
+      "REACT_APP_NODE_ENV",
+      "NODE_ENV"
+    ]
+  }
+}
