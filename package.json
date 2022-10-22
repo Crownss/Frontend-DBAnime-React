@@ -6,6 +6,8 @@
     "node": "18.11.0"
   },
   "dependencies": {
+    "@babel/preset-env": "latest",
+    "@babel/preset-react": "latest",
     "@fortawesome/fontawesome-svg-core": "latest",
     "@fortawesome/free-brands-svg-icons": "latest",
     "@fortawesome/free-solid-svg-icons": "latest",
@@ -44,7 +46,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"react-scripts build && touch build/.nojekyll"
+    "deploy": "react-scripts build && touch build/.nojekyll"
   },
   "eslintConfig": {
     "extends": [
