@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useCallback, useRef, useState } from 'react'
-import Navbar from '../components/navbar'
+import Navbar from '../../components/navbar'
 
 export default function Search(){
   const searchRef = useRef(null)

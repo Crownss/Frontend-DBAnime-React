@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import CardHome from '../components/cards/card_home'
-import Navbar from '../components/navbar'
+import Navbar from '../../components/navbar'
 
 
 function Home() {
